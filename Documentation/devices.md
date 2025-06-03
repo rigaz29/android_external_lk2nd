@@ -12,6 +12,7 @@
 - BQ Aquaris M5 - piccolo
 - BQ Aquaris X5 - paella, picmt
 - DragonBoard 410c - apq8016-sbc
+- EE Harrier Mini - harrier-mini
 - GPLUS FL8005A
 - HTC One M8s - m8qlul (quirky - see comment in `lk2nd/device/dts/msm8916/msm8939-htc-m8qlul.dts`)
 - Huawei Ascend G7 - G7-L01
@@ -51,6 +52,7 @@
 - Samsung Galaxy Tab A 8.0 (2015) - SM-T350, SM-T355, SM-T355Y, SM-T357W
 - Samsung Galaxy Tab A 9.7 (2015) - SM-T550, SM-T555
 - Samsung Galaxy Tab E 9.6 WiFi (2015) - SM-T560NU
+- Vivo Y31 (2015) - pd1505
 - Vivo Y21L
 - Vodafone Smart prime 6
 - Wileyfox Swift - crackling
@@ -67,8 +69,8 @@
 - CAT B35
 - FarEasTone Smart 506 (quirky - see comment in `lk2nd/device/dts/msm8909/msm8909-1gb-qrd-skuc.dts`)
 - Haier G151 / Andromax A (quirky - see comment in `lk2nd/device/dts/msm8909/msm8909-1gb-qrd-skuc.dts`)
-- Lenovo Yoga Tab 3 10 LTE
-- Lenovo Yoga Tab 3 10 WIFI
+- Lenovo Yoga Tab 3 8 LTE / WIFI
+- Lenovo Yoga Tab 3 10 LTE / WIFI
 - Lenovo Tab 10 (TB-X103F)
 - Mobvoi TicWatch Pro (WF12096)
 - Nokia 6300 4G
@@ -86,6 +88,7 @@
 - Huawei MediaPad T3 10 (ags- l09/l03/w09) (quirky - see comment in `lk2nd/device/dts/msm8952/msm8917-huawei-agassi.dts`)
 - Leeco s2
 - Lenovo K5 Play (l38011)
+- Lenovo Tab M10 HD (TB-X505X)
 - Motorola Moto E5 (nora)
 - Motorola Moto E5 Plus (hannah) (MSM8917)
 - Motorola Moto E5 Plus (hannah) (MSM8937)
@@ -100,6 +103,7 @@
 - Redmi 4X (santoni)
 - Redmi 5A (riva)
 - Redmi 7A (pine)
+- Redmi GO (tiare)
 - Redmi Note 3 Pro (kenzo)
 - Redmi Note 5A (ugglite)
 - Redmi Note 5A Prime (ugg)
@@ -111,6 +115,7 @@
 ### lk2nd-msm8953
 
 - Asus Zenfone 3 ZE520KL/ZE552KL (zenfone3)
+- Billion Capture+ (rimob)
 - Fairphone 3
 - Huawei Maimang 5 / Nova Plus / G9 (Plus) (milan)
 - Huawei Nova (cannes)
@@ -165,6 +170,7 @@
 - Samsung Galaxy Grand 2 - SM-G7102
 - Samsung Galaxy Tab 4 10.1 (2014) - SM-T530, SM-T535
 - Samsung Galaxy Tab 4 8.0 (2014) - SM-T330, SM-T330NU, SM-T331
+- Sony Xperia M2 - eagle (quirky - see comment in `lk2nd/device/dts/msm8226/msm8926-v2-720p-mtp.dts`)
 
 ### lk2nd-msm8994
 - Huawei Nexus 6P - Angler
