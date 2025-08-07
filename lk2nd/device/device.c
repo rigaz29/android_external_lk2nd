@@ -18,6 +18,14 @@
 struct lk2nd_device lk2nd_dev;
 
 /**
+ * lk2nd_device_get_dtb_compatible() - Get a compatible string for matching kernel dtb.
+ */
+const char *lk2nd_device_get_dtb_compatible(void)
+{
+	return lk2nd_dev.dtb_compatible ? lk2nd_dev.dtb_compatible : lk2nd_dev.compatible;
+}
+
+/**
  * lk2nd_device_get_dtb_hints() - Get a null-terminated array of DTB names.
  */
 const char *const *lk2nd_device_get_dtb_hints(void)
@@ -120,6 +128,12 @@ static void parse_dtb(const void *dtb)
 		lk2nd_dev.compatible = strndup(val, len);
 	else
 		dprintf(CRITICAL, "Failed to read 'compatible': %d\n", len);
+
+	val = fdt_getprop(dtb, node, "dtb_compatible", &len);
+	if (val && len > 0)
+		lk2nd_dev.dtb_compatible = strndup(val, len);
+	else
+		dprintf(CRITICAL, "Failed to read 'dtb_compatible': %d\n", len);
 
 	val = fdt_getprop(dtb, node, "model", &len);
 	if (val && len > 0)
