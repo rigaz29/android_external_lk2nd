@@ -16,7 +16,7 @@
 - GPLUS FL8005A
 - HTC One M8s - m8qlul (quirky - see comment in `lk2nd/device/dts/msm8916/msm8939-htc-m8qlul.dts`)
 - Huawei Ascend G7 - G7-L01
-- Huawei G7 Plus / G8 / GX8 - rio
+- Huawei G7 Plus / G8 / GX8 / Maimang 4 - rio
 - Huawei Honor 5X / GR5 (2016) - kiwi
 - Huawei MediaPad T2 10.0 Pro - federer
 - Huawei Y635 - Y635-L01 (quirky - see comment in `lk2nd/device/dts/msm8916/msm8916-huawei-y635-l01.dts`)
@@ -31,7 +31,8 @@
 - Motorola Moto E (2015) - surnia
 - Motorola Moto G (2015) - osprey
 - Motorola Moto G4 Play - harpia
-- Samsung Galaxy A3 (2015) - SM-A300F, SM-A300FU
+- Panasonic ELUGA U2
+- Samsung Galaxy A3 (2015) - SM-A300F, SM-A300FU, SM-A300YZ
 - Samsung Galaxy A5 (Duos) (2015) - SM-A5000, SM-A500F, SM-A500FU, SM-A500H, SM-A500YZ
 - Samsung Galaxy A7 (2015) - SM-A700YD
 - Samsung Galaxy Ace 4 - SM-G357FZ (quirky - see comment in `lk2nd/device/dts/msm8916/msm8916-samsung.dts`)
@@ -43,7 +44,7 @@
 - Samsung Galaxy Grand Prime - SM-G530FZ, SM-G530H, SM-G530R4, SM-G530W, SM-G530Y (G530Y is quirky - see comment in `lk2nd/device/dts/msm8916/msm8916-samsung.dts`)
 - Samsung Galaxy J3 (2016) - SM-J3109, SM-J320YZ
 - Samsung Galaxy J3 Pro - SM-J3110, SM-J3119
-- Samsung Galaxy J5 (2015) - SM-J5007, SM-J5008, SM-J500F, SM-J500FN, SM-J500H, SM-J500M
+- Samsung Galaxy J5 (2015) - SM-J5007, SM-J5008, SM-J500F, SM-J500FN, SM-J500G, SM-J500H, SM-J500M
 - Samsung Galaxy J5 (2016) - SM-J5108, SM-J510F, SM-J510FN, SM-J510GN, SM-J510H, SM-J510L, SM-J510MN, SM-J510UN
 - Samsung Galaxy J7 (2015) - SM-J7008, SM-J700P
 - Samsung Galaxy On7 (2015) - SM-G6000, SM-G600FY, SM-G600S
@@ -52,11 +53,11 @@
 - Samsung Galaxy Tab A 8.0 (2015) - SM-T350, SM-T355, SM-T355Y, SM-T357W
 - Samsung Galaxy Tab A 9.7 (2015) - SM-T550, SM-T555
 - Samsung Galaxy Tab E 9.6 WiFi (2015) - SM-T560NU
-- Vivo Y31 (2015) - pd1505
 - Vivo Y21L
+- Vivo Y31 (2015) - pd1505
 - Vodafone Smart prime 6
-- Wileyfox Swift - crackling
 - Wiko Pulp 4G
+- Wileyfox Swift - crackling
 - Xiaomi Mi 4i - ferrari
 - Xiaomi Redmi 2 - wt86047, wt88047
 - Xiaomi Redmi 3 - ido
@@ -82,6 +83,7 @@
 
 - Alcatel Idol 4 (6055*)
 - BQ X5 Plus (Longcheer L9360)
+- Fossil Gen 6 (hoki)
 - HMD Global Nokia 5 (nd1)
 - HMD Global Nokia 6 (ple)
 - Huawei Honor 7C (aum-l41) (quirky - see comment in `lk2nd/device/dts/msm8952/msm8937-huawei-aum.dts`)
@@ -188,8 +190,10 @@
 
 ### lk2nd-msm8960
 
+- Samsung Galaxy Ace 3 LTE (GT-S7275R) (display refresh doesn't work)
 - Samsung Galaxy Express (SGH-I437)
 - Samsung Galaxy S4 Mini (GT-I9195)
+- Sony Xperia SP (huashan) (quirky - see comment in `lk2nd/device/dts/msm8960/bundle.dts`)
 
 ## Porting new devices
 
