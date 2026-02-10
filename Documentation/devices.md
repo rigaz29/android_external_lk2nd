@@ -88,6 +88,7 @@
 - Alcatel Idol 4 (6055*)
 - BQ X5 Plus (Longcheer L9360)
 - Fossil Gen 6 (hoki) (requires flashing [minimal DTBO](#minimal-dtb-overlay))
+- General Mobile GM 5 Plus (shamrock)
 - HMD Global Nokia 4.2 (panther) (requires flashing [minimal DTBO](#minimal-dtb-overlay))
 - HMD Global Nokia 5 (nd1)
 - HMD Global Nokia 6 (ple)
@@ -115,6 +116,7 @@
 - Redmi Note 3 Pro (kenzo)
 - Redmi Note 5A (ugglite)
 - Redmi Note 5A Prime (ugg)
+- Samsung Galaxy Tab A 8.0 2019 (gtowifi)
 - Sony Xperia X
 - Sony Xperia X Compact
 - Wileyfox Swift 2
@@ -166,7 +168,8 @@
 - Samsung Galaxy Note 10.1 2014 (LTE) - SM-P605 (lt03lte)
 - Samsung Galaxy S5 - SM-G900F, SM-G900T
 - Samsung Galaxy S5 China LTE (Duos) - SM-G9006V/W, SM-G9008V/W, SM-G9009W
-- Sony Xperia Z3 - leo
+- Sony Xperia Z3 - leo (quirky - see comment in `lk2nd/device/dts/msm8974/msm8974pro-sony-leo.dts`)
+- Sony Xperia Z3 Compact - aries (quirky - see comment in `lk2nd/device/dts/msm8974/msm8974pro-sony-aries.dts`)
 
 ### lk2nd-msm8226
 - ASUS ZenWatch 2 - sparrow
@@ -197,6 +200,7 @@
 - Xiaomi Mi 5 - gemini
 - Xiaomi Mi 5s - capricorn
 - Xiaomi Mi 5s Plus - natrium
+- Xiaomi Mi Note 2 - scorpio
 - ZTE Axon 7
 
 ### lk2nd-msm8960
