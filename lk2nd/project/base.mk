@@ -74,6 +74,11 @@ DEFINES += FASTBOOT_HELP=1
 # Enable Android dynamic partitions support
 DEFINES += DYNAMIC_PARTITION_SUPPORT=1
 
+# Enable Android `BOARD_USES_RECOVERY_AS_BOOT` support (Android 10 and later)
+ifeq ($(ANDROID_USES_RECOVERY_AS_BOOT),1)
+DEFINES += ANDROID_USES_RECOVERY_AS_BOOT=1
+endif
+
 # Allow entering fastboot after forced reset
 DEFINES := $(filter-out USER_FORCE_RESET_SUPPORT=1, $(DEFINES))
 
