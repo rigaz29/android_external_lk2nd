@@ -20,6 +20,8 @@ LK2ND_RECOVERY_PARTITION_BASE ?= recovery
 LK2ND_RECOVERY_PARTITION_NAME ?= lk2nd_recovery
 LK2ND_RECOVERY_PARTITION_SIZE ?= 512*1024
 
+PANIC_REBOOT_MODE ?= FASTBOOT_MODE
+
 # The primary bootloader will implement LONG_PRESS_POWER_ON if needed.
 # If we do it again in lk2nd we might accidentally shutdown the device because
 # the user needs to keep the power key pressed for *really* long.
