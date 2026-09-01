@@ -65,6 +65,28 @@
 		};
 	};
 
+	oppo-a37 {
+		model = "OPPO A37";
+		compatible = "oppo,a37";
+		lk2nd,match-panel;
+
+		lk2nd,dtb-files = "msm8916-oppo-a37";
+
+		panel {
+			compatible = "oppo,a37-panel", "lk2nd,panel";
+
+			qcom,mdss_dsi_oppo15399boe_ili9881c_720p_video {
+				compatible = "oppo,a37-boe-ili9881c";
+			};
+			qcom,mdss_dsi_oppo15399tm_nt35521s_720p_video {
+				compatible = "oppo,a37-tm-nt35521s";
+			};
+			qcom,mdss_dsi_oppo15399truly_nt35521s_720p_video {
+				compatible = "oppo,a37-truly-nt35521s";
+			};
+		};
+	};
+
 	asus-z010d {
 		model = "Asus Zenfone Max ZC550KL";
 		compatible = "asus,z010d";
