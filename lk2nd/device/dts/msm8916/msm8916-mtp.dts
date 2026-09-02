@@ -72,6 +72,26 @@
 
 		lk2nd,dtb-files = "msm8916-oppo-a37";
 
+		/*
+		 * Volume down is on TLMM 108, not the PMIC RESIN that
+		 * target_volume_down() falls back to on msm8916. Without this
+		 * node only volume up works, because that fallback reads
+		 * TLMM_VOL_UP_BTN_GPIO = 107, which happens to be the same pin
+		 * the A37 uses.
+		 */
+		gpio-keys {
+			compatible = "gpio-keys";
+
+			vol-down {
+				lk2nd,code = <KEY_VOLUMEDOWN>;
+				gpios = <&tlmm 108 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+			};
+			vol-up {
+				lk2nd,code = <KEY_VOLUMEUP>;
+				gpios = <&tlmm 107 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+			};
+		};
+
 		panel {
 			compatible = "oppo,a37-panel", "lk2nd,panel";
 
